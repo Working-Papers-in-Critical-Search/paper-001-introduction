@@ -5,9 +5,11 @@ author:
   - name: "Jo Guldi"
     affiliation: "Emory University"
     url: https://www.joguldi.com/
+    orcid: "0000-0002-5085-0738"
   - name: "Jim Clifford"
     affiliation: "University of Saskatchewan"
     url: https://jimclifford.ca/
+    orcid: "0000-0003-2004-5161"
 date: last-modified
 abstract: |
   Digital humanities has always moved faster than its formal venues. This
