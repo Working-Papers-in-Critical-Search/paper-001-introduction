@@ -9,6 +9,7 @@ author:
     affiliation: "University of Saskatchewan"
     url: https://jimclifford.ca/
 date: "2026-05-05"
+doi: 10.5281/zenodo.20028066
 abstract: |
   This essay introduces *Working Papers in Critical Search*, a GitHub-published,
   fast-turnaround venue for scholarship at the intersection of history,
