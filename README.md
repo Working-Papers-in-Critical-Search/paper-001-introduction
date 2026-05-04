@@ -3,18 +3,24 @@
 The introduction to *Working Papers in Critical Search*, the editors' statement of purpose for the series.
 
 **Authors:** Jo Guldi (Emory University), Jim Clifford (University of Saskatchewan)
+**Published:** 5 May 2026
+**Version:** v1.0
+**DOI:** [10.5281/zenodo.20028066](https://doi.org/10.5281/zenodo.20028066)
+
+**Live paper:** <https://working-papers-in-critical-search.github.io/paper-001-introduction/>
 
 ## Abstract
 
-Digital humanities has always moved faster than its formal venues. This introduction sets out the rationale for *Working Papers in Critical Search*: a GitHub-published, fast-turnaround venue for work at the intersection of history, computation, and political economy. We argue that the collapse of the old digital-history bottlenecks — under transformer-based AI — has shifted the constraint from access and processing to interpretation, design, and judgment, and that scholarly publishing infrastructure must shift with it. The series formalizes a "white-box" model of computational history in which method and interpretation are inseparable, and treats critical search — attention to provenance, bias, and historical context in how knowledge is retrieved and assembled — as both a scholarly method and a public infrastructure.
+This essay introduces *Working Papers in Critical Search*, a GitHub-published, fast-turnaround venue for scholarship at the intersection of history, computation, and political economy. We argue that transformer-based AI has dissolved the old bottlenecks of digital history — transcription, structuring, coding — and shifted the discipline's binding constraint to interpretation, design, and judgment. That shift lets historians re-enter *longue durée* debates about capitalism, society, and change on terms that preserve their social and ecological complexity rather than reducing them to quantitative trends. But it also exposes a publication ecosystem too slow for a research practice in which models and datasets evolve faster than peer review. The series responds with a "white-box" model of computational history in which method and interpretation are inseparable and evidentiary chains from source to claim remain visible, and treats critical search — attention to provenance, bias, and historical context in how knowledge is retrieved and assembled — as both a scholarly method and a public infrastructure.
 
 ## Files
 
 - `index.qmd` — the paper
 - `_quarto.yml` — Quarto/site config
-- `references.bib` — bibliography (currently a placeholder)
+- `references.bib` — bibliography (Humphries et al. 2025; Guldi 2024, 2022; Beckert 2025; Berg & Hudson 2023; Berg 2021; Beckert et al. 2021)
+- `_includes/`, `_custom.scss`, `_paper.scss`, `_tokens.scss` — shared chrome and styling
 
-## Preview Locally
+## Preview locally
 
 ```bash
 quarto preview
@@ -24,8 +30,6 @@ quarto preview
 
 Content: CC-BY 4.0. Code (where applicable): MIT.
 
-## Submission Status
+## Citing
 
-Drafted in the editors' working tree. Ready for transfer to the
-`Working-Papers-in-Critical-Search` GitHub organization for editorial review
-and a `v1.0` release tag (which triggers Zenodo archiving and DOI minting).
+Cite the v1.0 snapshot via its Zenodo DOI: `10.5281/zenodo.20028066`. Future versions will mint their own DOIs; the listing on the journal home page tracks the latest.
