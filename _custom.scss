@@ -52,34 +52,20 @@ button {
   border-radius: 2px;
 }
 
-// Kill Quarto/Bootstrap residue we don't want: default navbar/footer wrappers,
-// auto-generated title block (our masthead replaces it), sidebar, TOC.
-// We render our own chrome via include-before-body / include-after-body.
+// Paper subsites keep the default Quarto layout (title block, TOC, body).
+// We only hide the Quarto navbar/footer wrappers since our own chrome via
+// include-before-body / include-after-body replaces those.
+//
+// (The home repo's _custom.scss additionally hides #title-block-header,
+// the sidebar/TOC, and strips Quarto's grid layout — those rules are
+// page-layout-custom-specific and intentionally omitted from the paper
+// version.)
 .navbar,
 body > .nav-footer,
 body > footer.footer,
 #quarto-header,
-#quarto-footer,
-#title-block-header,
-#quarto-sidebar,
-#TOC,
-.sidebar,
-.quarto-title-banner,
-.quarto-title-block {
+#quarto-footer {
   display: none !important;
-}
-
-// Quarto wraps content in #quarto-content > main.content — reset its constraints
-// so our full-bleed sections (like the paper-2 Latest Papers band) work.
-main.content,
-#quarto-content,
-.page-columns,
-.page-layout-article {
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  grid-template-columns: none !important;
-  display: block !important;
 }
 
 // ---------------- Utilities ----------------
