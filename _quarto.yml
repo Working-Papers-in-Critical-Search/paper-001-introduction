@@ -14,6 +14,7 @@ format:
       - cosmo
       - _tokens.scss
       - _custom.scss
+      - _paper.scss
     toc: true
     code-fold: true
     code-tools: true
