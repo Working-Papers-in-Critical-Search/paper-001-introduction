@@ -8,20 +8,23 @@ author:
   - name: "Jim Clifford"
     affiliation: "University of Saskatchewan"
     url: https://jimclifford.ca/
-date: last-modified
+date: "2026-05-05"
 abstract: |
-  Digital humanities has always moved faster than its formal venues. This
-  introduction sets out the rationale for *Working Papers in Critical Search*:
-  a GitHub-published, fast-turnaround venue for work at the intersection of
-  history, computation, and political economy. We argue that the collapse of
-  the old digital-history bottlenecks — under transformer-based AI — has
-  shifted the constraint from access and processing to interpretation, design,
-  and judgment, and that scholarly publishing infrastructure must shift with
-  it. The series formalizes a "white-box" model of computational history in
-  which method and interpretation are inseparable, and treats critical search
-  — attention to provenance, bias, and historical context in how knowledge is
-  retrieved and assembled — as both a scholarly method and a public
-  infrastructure.
+  This essay introduces *Working Papers in Critical Search*, a GitHub-published,
+  fast-turnaround venue for scholarship at the intersection of history,
+  computation, and political economy. We argue that transformer-based AI has
+  dissolved the old bottlenecks of digital history — transcription, structuring,
+  coding — and shifted the discipline's binding constraint to interpretation,
+  design, and judgment. That shift lets historians re-enter *longue durée*
+  debates about capitalism, society, and change on terms that preserve their
+  social and ecological complexity rather than reducing them to quantitative
+  trends. But it also exposes a publication ecosystem too slow for a research
+  practice in which models and datasets evolve faster than peer review. The
+  series responds with a "white-box" model of computational history in which
+  method and interpretation are inseparable and evidentiary chains from source
+  to claim remain visible, and treats critical search — attention to provenance,
+  bias, and historical context in how knowledge is retrieved and assembled — as
+  both a scholarly method and a public infrastructure.
 bibliography: references.bib
 format:
   html:
@@ -48,7 +51,7 @@ A distinct body of work has emerged across several labs in recent years, one tha
 
 There is, right now, a consequential conversation about the long arc of human history unfolding largely outside the discipline of History. Figures like Steven Pinker, Peter Turchin, and Nassim Nicholas Taleb are advancing [sweeping claims about violence, stability, and social change using large-scale quantitative datasets](https://computationalhistory.substack.com/p/beyond-cherry-picking-scaling-historical?utm_source=substack&utm_medium=email&utm_content=share). These arguments are influential precisely because they speak in the language of generalization: they offer answers about what is increasing, declining, or recurring over centuries. And yet, for the most part, historians—especially social historians—have not been central participants in this debate.
 
-That absence matters. Because the history of capitalism, political economy, and social life has never been reducible to counts of wars, prices, or populations alone. Scholars like [Maxine Berg, Sven Beckert and Jason W. Moore](https://www.cambridge.org/core/journals/journal-of-global-history/issue/80C15886255815FEB4DA50FB202176D9) have shown that large-scale transformations emerge from the interaction of institutions, labor regimes, ecological systems, and cultural meanings that evolve over time. Capitalism is not just growth rates; it is plantation economies, imperial networks, and the contested organization of labor and land. Moore, in particular, reminds us that capitalism is always already a way of organizing nature as well as society—binding together energy, environment, and exploitation. Climate change, in this light, is not simply an atmospheric trend but a historical outcome of these intertwined systems. These are social and ecological processes, not just numerical trends.
+That absence matters. Because the history of capitalism, political economy, and social life has never been reducible to counts of wars, prices, or populations alone. Scholars like [Maxine Berg, Sven Beckert and Jason W. Moore](https://www.cambridge.org/core/journals/journal-of-global-history/issue/80C15886255815FEB4DA50FB202176D9) have shown that large-scale transformations emerge from the interaction of institutions, labor regimes, ecological systems, and cultural meanings that evolve over time [@berg2021commodity; @beckert2021commodity; @beckert2025capitalism; @berg2023slavery]. Capitalism is not just growth rates; it is plantation economies, imperial networks, and the contested organization of labor and land. Moore, in particular, reminds us that capitalism is always already a way of organizing nature as well as society—binding together energy, environment, and exploitation. Climate change, in this light, is not simply an atmospheric trend but a historical outcome of these intertwined systems. These are social and ecological processes, not just numerical trends.
 
 Purely quantitative approaches, for all their reach, risk a kind of abstraction that flattens these dynamics—relying on incomplete or uneven datasets and mistaking what can be counted for what must be explained. In that sense, they engage in a form of cherry-picking of their own: privileging the measurable while overlooking the structures and experiences that give those measures meaning.
 
@@ -64,7 +67,7 @@ Alongside these research agendas, a parallel body of pedagogical and methodologi
 
 Getting the facts right is only half the challenge. Which tool to use for a historical analysis is a question that is never merely technical. Epistemological and ontological problems bear directly on which facts are selected, which model is trusted, which visualization is offered as proof of incontestability or meaning. These methods questions—of which tactics we choose and why—are almost never engaged in the journals, either historical or digital humanities. As a result, important conversations about *how we know what we know* remain underpublished, circulating informally in syllabi, lab meetings, and code repositories. This series aims to make that knowledge visible, citable, and cumulative.
 
-Articulated in Guldi's *The Dangerous Art of Text Mining*, the theory of "critical search" insists on attention to context, the provenance of data, and the interpretability of results. This series aims to leverage critical search as an orientation for social scientists and humanists who care not only about capitalism but also about the fit of methods to facts, theories, and archives.
+Articulated in Guldi's *The Dangerous Art of Text Mining* [@guldi2022dangerous; @guldi2024revolution], the theory of "critical search" insists on attention to context, the provenance of data, and the interpretability of results. This series aims to leverage critical search as an orientation for social scientists and humanists who care not only about capitalism but also about the fit of methods to facts, theories, and archives.
 
 As a working papers series, this project aims to publish pedagogy, student papers, and experimental analyses that make their evidentiary chains explicit: readers must be able to see where sources originate, how they have been transformed, how algorithms have been tested for bias, how the dataset's own limitations have been interrogated, and which specific passages substantiate a given interpretation. In this sense, it advances a "white-box" model of digital history—one in which the analytical steps between raw source and published claim remain visible and open to scrutiny, so that results derived from large-scale data stay accountable to primary sources and legible to humanistic interpretation.
 
@@ -76,7 +79,7 @@ Historians cannot afford to leave the development of the tools entirely to compu
 
 The problem of speed is especially acute for work involving large language models. A paper submitted to a traditional journal today may describe a model that is already twelve months obsolete by the time it clears two rounds of peer review. Reviewers may request engagement with tools or benchmarks that did not exist when the paper was drafted. The result is a publication system structurally mismatched to the pace of AI development, a mismatch that discourages precisely the kind of iterative, applied experimentation this field needs. Working papers, by contrast, can circulate while the methods they describe are still current, and can be revised openly as the technology evolves.
 
-The practitioners of digital humanities and social science have always improvised: blogs, Substacks, lab notebooks, and informal publications have long been central sites of intellectual exchange. Today, Ted Underwood's [blog](https://tedunderwood.com/) is widely cited and taught; [Jessica Marie Johnson](https://jessicamariejohnson.com/)'s lab circulates readings and reflections through an active Substack; Mark Humphries shared his success with handwriting transcription on his blog and then provided key updates to his journal article when [Gemini 3 launched](https://generativehistory.substack.com/p/the-sugar-loaf-test-how-an-18th-century). These auxiliary forms are not peripheral; they are often the most faithful record of what digital humanities actually is: heterogeneous, collaborative, and in motion.
+The practitioners of digital humanities and social science have always improvised: blogs, Substacks, lab notebooks, and informal publications have long been central sites of intellectual exchange. Today, Ted Underwood's [blog](https://tedunderwood.com/) is widely cited and taught; [Jessica Marie Johnson](https://jessicamariejohnson.com/)'s lab circulates readings and reflections through an active Substack; Mark Humphries shared his success with handwriting transcription on his blog and then provided key updates to his journal article [@humphries2025unlocking] when [Gemini 3 launched](https://generativehistory.substack.com/p/the-sugar-loaf-test-how-an-18th-century). These auxiliary forms are not peripheral; they are often the most faithful record of what digital humanities actually is: heterogeneous, collaborative, and in motion.
 
 But they also reveal a structural problem. The pace of discovery now exceeds the speed of formal publication. Methods evolve between submission and print; datasets change; models improve; interpretations are revised in real time. Blogs and Substacks fill the gap, but they lack the stability, citability, and collective visibility of formal scholarship. What is needed is not a replacement for these forms, but an infrastructure that matches their speed while preserving scholarly standards. A working paper series does precisely that: it captures work in motion without sacrificing rigor, making it possible to publish quickly, revise openly, and cite reliably in a field where waiting two years is no longer viable.
 
