@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Working Papers in Critical Search"
-  site-url: https://working-papers-in-critical-search.github.io/
+  site-url: https://working-papers-in-critical-search.github.io/paper-001-introduction/
   # No Quarto navbar / page-footer — chrome injected via includes below
   # to match the journal home site.
 
