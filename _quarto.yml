@@ -5,6 +5,8 @@ project:
 website:
   title: "Working Papers in Critical Search"
   site-url: https://working-papers-in-critical-search.github.io/paper-001-introduction/
+  open-graph: true
+  twitter-card: true
   # No Quarto navbar / page-footer — chrome injected via includes below
   # to match the journal home site.
 
@@ -24,6 +26,10 @@ format:
     link-external-newwindow: true
     include-in-header:
       - _includes/fonts.html
+      - text: |
+          <link rel="canonical" href="https://working-papers-in-critical-search.github.io/paper-001-introduction/">
+          <meta property="og:url" content="https://working-papers-in-critical-search.github.io/paper-001-introduction/">
+          <meta name="twitter:url" content="https://working-papers-in-critical-search.github.io/paper-001-introduction/">
     include-before-body:
       - _includes/topbar.html
       - _includes/paper-id.html
@@ -31,6 +37,30 @@ format:
       - _includes/footer.html
       - _includes/mobile-toc.html
       - text: '<script src="https://hypothes.is/embed.js" async></script>'
+  pdf:
+    documentclass: scrartcl
+    papersize: letter
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+    linestretch: 1.15
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    citecolor: NavyBlue
+    toc: false
+    number-sections: false
+    pdf-engine: xelatex
+    keep-tex: false
+    include-in-header:
+      text: |
+        \usepackage{microtype}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \fancyhead[L]{\small\itshape Working Papers in Critical Search}
+        \fancyhead[R]{\small\thepage}
+        \renewcommand{\headrulewidth}{0.4pt}
 
 comments:
   giscus:
